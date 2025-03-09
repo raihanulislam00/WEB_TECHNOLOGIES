@@ -3,13 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Raihanul Islam</title>
+    <title>Box Layout with Flexbox</title>
 </head>
-<body>
-    <h1>This is My parsonal Wabsite</h1>
-    <p>My name Is Raihanul Islam. I am From Pekua,Cox's Bazar.My father name Nazem Udden.My Mother Name Rokeya Bugem.I am CSE student at AIUB.</p>
+<body style="text-align: center; font-family: Arial, sans-serif;">
 
-    <a href="https://raihanulislam.vercel.app/">Parsonal Wabsite</a>
-    <img src="" alt="Raihanul">
+    <div style="margin: 20px auto; width: 80px; height: 80px; display: flex; align-items: center; justify-content: center;">
+        <img src="download.png" alt="Logo" style="width: 100%; height: 100%; object-fit: cover; border-radius: 50%;">
+    </div>
+
+    <div style="font-size: 20px; font-weight: bold; margin-bottom: 20px;">AIUB</div>
+    
+    <div style="display: flex; flex-wrap: wrap; width: 60%; margin: auto; gap: 5px; justify-content: center;">
+        <div style="display: flex; justify-content: center; align-items: center; border: 2px solid black; height: 130px; width: 45%; font-size: 18px; font-weight: bold;">Box 1</div>
+        <div style="display: flex; justify-content: center; align-items: center; border: 2px solid black; height: 180px; width: 45%; font-size: 18px; font-weight: bold;">Box 3</div>
+        <div style="display: flex; justify-content: center; align-items: center; border: 2px solid black; height: 100px; width: 45%; font-size: 18px; font-weight: bold;">Box 2</div>
+        <div style="display: flex; justify-content: center; align-items: center; border: 2px solid black; height: 170px; width: 45%; font-size: 18px; font-weight: bold;">Box 4</div>
+    </div>
+
 </body>
 </html>
