@@ -3,21 +3,30 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Box Layout with Flexbox</title>
+    <title>AIUB</title>
 </head>
 <body style="text-align: center; font-family: Arial, sans-serif;">
 
-    <div style="margin: 20px auto; width: 80px; height: 80px; display: flex; align-items: center; justify-content: center;">
-        <img src="download.png" alt="Logo" style="width: 100%; height: 100%; object-fit: cover; border-radius: 50%;">
+    <!-- Logo and Title -->
+    <div>
+        <img src="download.png" alt="AIUB Logo" style="width: 150px; height: 150;">
+        <h1>AIUB</h1>
     </div>
 
-    <div style="font-size: 20px; font-weight: bold; margin-bottom: 20px;">AIUB</div>
+    <!-- Centering Boxes -->
+    <div style="display: flex; justify-content: center; align-items: center; margin-top: 20px;">
+
+        <div style="display: inline-block; vertical-align: top; margin-right: -2px;"> 
+            <div style="border: 3px solid black; width: 200px; height: 100px; text-align: center; line-height: 100px;">Box 1</div>
+            <div style="border: 3px solid black; width: 200px; height: 200px; text-align: center; line-height: 200px; margin-left: 0px;">Box 2</div>
+        </div>
     
-    <div style="display: flex; flex-wrap: wrap; width: 60%; margin: auto; gap: 5px; justify-content: center;">
-        <div style="display: flex; justify-content: center; align-items: center; border: 2px solid black; height: 130px; width: 45%; font-size: 18px; font-weight: bold;">Box 1</div>
-        <div style="display: flex; justify-content: center; align-items: center; border: 2px solid black; height: 180px; width: 45%; font-size: 18px; font-weight: bold;">Box 3</div>
-        <div style="display: flex; justify-content: center; align-items: center; border: 2px solid black; height: 100px; width: 45%; font-size: 18px; font-weight: bold;">Box 2</div>
-        <div style="display: flex; justify-content: center; align-items: center; border: 2px solid black; height: 170px; width: 45%; font-size: 18px; font-weight: bold;">Box 4</div>
+        <div style="display: inline-block; vertical-align: top; margin-left: -2px;">
+            <div style="width: 200px; height: 130px; border: 3px solid black; text-align:center;line-height: 100px;">Box 3</div>
+            <div style="width: 200px; height: 170px; border: 3px solid black; text-align: center; line-height: 100px; ">Box 4</div>
+        </div>
+    
+
     </div>
 
 </body>
